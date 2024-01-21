@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+
+
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Cochin;
+    color: rgb(255, 255, 255);
+}
+
+#btncontainer{
+    text-align: center;
+       
+}
+.button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(114, 186, 245);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.button:hover{
+    background-color: rgb(29, 29, 235);
+}
